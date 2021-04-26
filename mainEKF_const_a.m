@@ -135,66 +135,66 @@ t = t(:,1:k-1);
 
 %% Plotting
 
-subplot(231);
-hold on
-
-top1 = X(1,:)+3*sqrt(P_diag(1,:));
-bot1 = X(1,:)-3*sqrt(P_diag(1,:));
-
-plot(X(1,:), 'b');
-plot(top1, 'r-');
-plot(bot1, 'r-');
-title("h");
-
-subplot(232);
-hold on
-top2 = X(2,:)+3*sqrt(P_diag(2,:));
-bot2 = X(2,:)-3*sqrt(P_diag(2,:));
-
-plot(X(2,:), 'b');
-plot(top2, 'r-');
-plot(bot2, 'r-');
-title("v");
-
-subplot(233);
-hold on
-top3 = X(3,:)+3*sqrt(P_diag(3,:));
-bot3 = X(3,:)-3*sqrt(P_diag(3,:));
-
-plot(X(3,:), 'b');
-plot(top3, 'r-');
-plot(bot3, 'r-');
-title("a");
-
-subplot(234);
-hold on
-top4 = X(4,:)+3*sqrt(P_diag(4,:));
-bot4 = X(4,:)-3*sqrt(P_diag(4,:));
-
-plot(X(4,:), 'b');
-plot(top4, 'r-');
-plot(bot4, 'r-');
-title("p_0");
-
-subplot(235);
-hold on
-top5 = X(5,:)+3*sqrt(P_diag(5,:));
-bot5 = X(5,:)-3*sqrt(P_diag(5,:));
-
-plot(X(5,:), 'b');
-plot(top5, 'r-');
-plot(bot5, 'r-');
-title("K");
-
-subplot(236);
-hold on
-top6 = X(6,:)+3*sqrt(P_diag(6,:));
-bot6 = X(6,:)-3*sqrt(P_diag(6,:));
-
-plot(X(6,:), 'b');
-plot(top6, 'r-');
-plot(bot6, 'r-');
-title("h_0");
+% subplot(231);
+% hold on
+% 
+% top1 = X(1,:)+3*sqrt(P_diag(1,:));
+% bot1 = X(1,:)-3*sqrt(P_diag(1,:));
+% 
+% plot(X(1,:), 'b');
+% plot(top1, 'r-');
+% plot(bot1, 'r-');
+% title("h");
+% 
+% subplot(232);
+% hold on
+% top2 = X(2,:)+3*sqrt(P_diag(2,:));
+% bot2 = X(2,:)-3*sqrt(P_diag(2,:));
+% 
+% plot(X(2,:), 'b');
+% plot(top2, 'r-');
+% plot(bot2, 'r-');
+% title("v");
+% 
+% subplot(233);
+% hold on
+% top3 = X(3,:)+3*sqrt(P_diag(3,:));
+% bot3 = X(3,:)-3*sqrt(P_diag(3,:));
+% 
+% plot(X(3,:), 'b');
+% plot(top3, 'r-');
+% plot(bot3, 'r-');
+% title("a");
+% 
+% subplot(234);
+% hold on
+% top4 = X(4,:)+3*sqrt(P_diag(4,:));
+% bot4 = X(4,:)-3*sqrt(P_diag(4,:));
+% 
+% plot(X(4,:), 'b');
+% plot(top4, 'r-');
+% plot(bot4, 'r-');
+% title("p_0");
+% 
+% subplot(235);
+% hold on
+% top5 = X(5,:)+3*sqrt(P_diag(5,:));
+% bot5 = X(5,:)-3*sqrt(P_diag(5,:));
+% 
+% plot(X(5,:), 'b');
+% plot(top5, 'r-');
+% plot(bot5, 'r-');
+% title("K");
+% 
+% subplot(236);
+% hold on
+% top6 = X(6,:)+3*sqrt(P_diag(6,:));
+% bot6 = X(6,:)-3*sqrt(P_diag(6,:));
+% 
+% plot(X(6,:), 'b');
+% plot(top6, 'r-');
+% plot(bot6, 'r-');
+% title("h_0");
 
 
 
