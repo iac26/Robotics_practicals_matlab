@@ -135,6 +135,7 @@ t = t(:,1:k-1);
 
 %% Plotting
 
+
 subplot(221);
 hold on
 
@@ -145,6 +146,7 @@ plot(X(1,:), 'b');
 plot(top1, 'r-');
 plot(bot1, 'r-');
 title("h");
+
 
 % subplot(232);
 % hold on
@@ -165,6 +167,7 @@ title("h");
 % plot(top3, 'r-');
 % plot(bot3, 'r-');
 % title("a");
+
 
 subplot(222);
 hold on
@@ -195,6 +198,7 @@ plot(X(6,:), 'b');
 plot(top6, 'r-');
 plot(bot6, 'r-');
 title("h_0");
+
 
 
 
